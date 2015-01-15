@@ -33,6 +33,9 @@ var main = function() {
       $('.answer3').text(" ");
     } else {
       var result = FtoCconverter(x);
+      $('.answer1').css("fontSize",'1em');
+      $('.answer2').css("fontSize",'1em');
+      $('.answer3').css("fontSize",'1em');
       $('.answer1').text(x + " ° Fahrenheit").animate({fontSize:'2em'},"slow");
       $('.answer2').text("=").animate({fontSize:'2em'},"slow");
       $('.answer3').text(result + " ° Celsius").animate({fontSize:'2em'},"slow");
@@ -51,6 +54,9 @@ var main = function() {
       $('.answer3').text(" ");
     } else {
       var result = CtoFconverter(x);
+      $('.answer1').css("fontSize",'1em');
+      $('.answer2').css("fontSize",'1em');
+      $('.answer3').css("fontSize",'1em');
       $('.answer1').text(x + " ° Celsius ").animate({fontSize:'2em'},"slow");
       $('.answer2').text("=").animate({fontSize:'2em'},"slow");
       $('.answer3').text(result + " ° Fahrenheit").animate({fontSize:'2em'},"slow");

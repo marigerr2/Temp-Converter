@@ -24,21 +24,21 @@ h1, h2, h3 {
 .form1 {
   text-align: center;
   position:absolute;
-  top:150px;
+  top:125px;
   left:0;
   width:60%;
 }
 .form2 {
   text-align: center;
   position:absolute;
-  top:150px;
+  top:125px;
   right:0;
   width:50%;
 }
 .resultArea {
   text-align: center;
   position:absolute;
-  top:300px;
+  top:275px;
   left:0;
   width:100%;
 }
